@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify ~Ex_130/script.js > ~Ex_130/bundle.js && live-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/snoun/Udemy/issues"
   },
-  "homepage": "https://github.com/snoun/Udemy#readme"
-}
+  "homepage": "https://github.com/snoun/Udemy#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}s
